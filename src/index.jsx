@@ -9,7 +9,7 @@ import AppState from './stores/appstate'
 import 'todomvc-app-css/index.css'
 import App from './components/App';
 
-import * as Perf from 'react-addons-perf';
+// import * as Perf from 'react-addons-perf';
 
 // MWE: Generate todos for benchmarking
 const STORE_SIZE = 10000;
@@ -37,12 +37,12 @@ render(
 )
 
 // MWE: will only work on non prod builds
-window.perfStart = function() {
-  Perf.start();
-}
+// window.perfStart = function() {
+//   Perf.start();
+// }
 
-window.perfStop = function() {
-  Perf.stop();
-  Perf.printInclusive();
-  Perf.printWasted();
-}
+// window.perfStop = function() {
+//   Perf.stop();
+//   Perf.printInclusive();
+//   Perf.printWasted();
+// }

@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { observer } from 'mobx-react'
 import classnames from 'classnames'
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from '../stores/appstate'
